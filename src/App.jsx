@@ -42,8 +42,9 @@ function Page(){
   )
 }
 const App = () => {
+  const basename = import.meta.env.BASE_URL ?? '/';
   return ( 
-    <Router>
+    <Router basename={basename}>
   <Routes>
     <Route path='/' element={<Page/>}/>
     <Route path='/project/:id' element={<ProjectDetail/>}/>
