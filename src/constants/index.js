@@ -25,31 +25,31 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Design–Build–Fly (DBF) Aircraft Competition",
-    image: DBF, 
-    description: `Led the design and development of a small-scale aircraft achieving 3rd place in competition. Directed a multidisciplinary team through four major design iterations, resolving performance, structural, and stability issues. Conducted simulations and flight/load testing to validate performance and verify safety margins. Coordinated research, CAD modeling, propulsion analysis, and documentation across the team.`,
-    technologies: ["SolidWorks", "MATLAB", "XFLR5", "Flow5", "ANSYS", "3D Printing", "Aerodynamic Analysis", "Structural Analysis"],
+    title: "Battery sorter",
+    image: ISR,
+    description: `Prototype wing-body demonstrator focused on aerodynamic efficiency and structural optimization. Responsibilities included CAD design and preliminary validation.`,
+    technologies: ["SolidWorks", "CFD", "Structural Analysis"],
     link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
   },
   {
-    title: "Cruise Control System – MATLAB Simulink",
+    title: "v8",
     image: cruise,
-    description: `Built a cruise control model using Simulink with PID controller implementation. Analyzed stability and performance metrics and validated results against expected system behavior. Demonstrated understanding of control systems theory and practical application in automotive engineering.`,
-    technologies: ["MATLAB", "Simulink", "PID Control", "Control Systems", "System Modeling"],
+    description: `V8 engine assembly design including pistons, crankshaft, camshaft and valve-train with motion studies and tolerance checks.`,
+    technologies: ["SolidWorks", "Assembly Design", "Motion Studies"],
     link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
   },
   {
-    title: "Embedded Systems – Arduino Interrupt Service Routine",
-    image: ISR, 
-    description: `Developed an Interrupt Service Routine (ISR) on Arduino to handle asynchronous inputs. Documented the complete hardware-software interface and ISR execution logic. Demonstrated proficiency in embedded systems programming and real-time response handling.`,
-    technologies: ["Arduino", "C/C++", "Embedded Systems", "ISR", "Hardware Interface"],
-    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
-  },
-  {
-    title: "Satellite Data Analysis using Google Earth Engine",
+    title: "rearwing",
     image: satelliteGEE,
-    description: `Developed a Java-based application to extract and analyze satellite data on land use and precipitation. Processed spatial data to visualize trends for academic research purposes. Applied remote sensing techniques and geospatial analysis for environmental monitoring.`,
-    technologies: ["Java", "Google Earth Engine", "Geospatial Analysis", "Remote Sensing", "Data Visualization"],
+    description: `Rear wing design and aerodynamic optimization with CFD iterations and structural sizing for manufacturability.`,
+    technologies: ["CFD", "SolidWorks", "Aerodynamic Optimization"],
+    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
+  },
+  {
+    title: "dbf",
+    image: DBF,
+    description: `Design–Build–Fly small-scale aircraft project covering full-cycle design, testing and documentation.`,
+    technologies: ["SolidWorks", "MATLAB", "Aerodynamic Analysis"],
     link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
   },
 ];
