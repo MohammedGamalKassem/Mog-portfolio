@@ -2,7 +2,6 @@ import DBF from '../assets/Projects/DPF.png';
 import cruise from '../assets/Projects/cruise.png';
 import ISR from '../assets/Projects/ISR.png';
 import satelliteGEE from '../assets/Projects/GoogleEarthEngine.png';
-
 export const HERO_CONTENT = `Driven aerospace engineering student at Cairo University with hands-on experience in aerodynamic design, structural analysis, and CAD modeling. Proven success in competitive engineering projects and cross-functional collaboration. Proficient in engineering tools including SolidWorks, MATLAB, and ANSYS. Seeking impactful opportunities in aerospace design, mechanical systems, or simulation roles.`;
 
 export const ABOUT_TEXT = `My journey in aerospace engineering has been fueled by a passion for innovation and precision. As an aerospace engineering student at Cairo University, I've developed expertise in CAD modeling, aerodynamic analysis, and structural simulation. From leading competitive aircraft design projects to working as a Mechanical Design Engineer at OSCORP ENERGY, I've honed my skills in SolidWorks, MATLAB, ANSYS, and sustainable engineering solutions. I thrive in cross-functional teams and am committed to advancing aerospace technology through innovative design and rigorous analysis.`;
@@ -26,31 +25,31 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Battery sorter",
-    image: ISR,
-    description: `Prototype wing-body demonstrator focused on aerodynamic efficiency and structural optimization. Responsibilities included CAD design and preliminary validation.`,
-    technologies: ["SolidWorks", "CFD", "Structural Analysis"],
+    title: "Design–Build–Fly (DBF) Aircraft Competition",
+    image: DBF, 
+    description: `Led the design and development of a small-scale aircraft achieving 3rd place in competition. Directed a multidisciplinary team through four major design iterations, resolving performance, structural, and stability issues. Conducted simulations and flight/load testing to validate performance and verify safety margins. Coordinated research, CAD modeling, propulsion analysis, and documentation across the team.`,
+    technologies: ["SolidWorks", "MATLAB", "XFLR5", "Flow5", "ANSYS", "3D Printing", "Aerodynamic Analysis", "Structural Analysis"],
     link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
   },
   {
-    title: "v8",
+    title: "Cruise Control System – MATLAB Simulink",
     image: cruise,
-    description: `V8 engine assembly design including pistons, crankshaft, camshaft and valve-train with motion studies and tolerance checks.`,
-    technologies: ["SolidWorks", "Assembly Design", "Motion Studies"],
+    description: `Built a cruise control model using Simulink with PID controller implementation. Analyzed stability and performance metrics and validated results against expected system behavior. Demonstrated understanding of control systems theory and practical application in automotive engineering.`,
+    technologies: ["MATLAB", "Simulink", "PID Control", "Control Systems", "System Modeling"],
     link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
   },
   {
-    title: "rearwing",
+    title: "Embedded Systems – Arduino Interrupt Service Routine",
+    image: ISR, 
+    description: `Developed an Interrupt Service Routine (ISR) on Arduino to handle asynchronous inputs. Documented the complete hardware-software interface and ISR execution logic. Demonstrated proficiency in embedded systems programming and real-time response handling.`,
+    technologies: ["Arduino", "C/C++", "Embedded Systems", "ISR", "Hardware Interface"],
+    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
+  },
+  {
+    title: "Satellite Data Analysis using Google Earth Engine",
     image: satelliteGEE,
-    description: `Rear wing design and aerodynamic optimization with CFD iterations and structural sizing for manufacturability.`,
-    technologies: ["CFD", "SolidWorks", "Aerodynamic Optimization"],
-    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
-  },
-  {
-    title: "dbf",
-    image: DBF,
-    description: `Design–Build–Fly small-scale aircraft project covering full-cycle design, testing and documentation.`,
-    technologies: ["SolidWorks", "MATLAB", "Aerodynamic Analysis"],
+    description: `Developed a Java-based application to extract and analyze satellite data on land use and precipitation. Processed spatial data to visualize trends for academic research purposes. Applied remote sensing techniques and geospatial analysis for environmental monitoring.`,
+    technologies: ["Java", "Google Earth Engine", "Geospatial Analysis", "Remote Sensing", "Data Visualization"],
     link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
   },
 ];
@@ -110,4 +109,3 @@ export const SOFT_SKILLS = [
   "Stakeholder Management",
   "Attention to Detail & Precision",
 ];
-
