@@ -57,7 +57,7 @@ export const PROJECTS = [
 export const CONTACT = {
   address: "Cairo, Egypt",
   phoneNo: "+20 111 541 7266",
-  email: "mohammedgamal0092@gmail.com",
+  email: "mohammedgamal92@gmail.com",
 };
 
 export const CERTIFICATIONS = [
