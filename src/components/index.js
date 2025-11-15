@@ -25,7 +25,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Battery Sorting Machine – WAYNE",
+    title: "Battery Sorting Machine",
     image: ISR,
     description: `Automated battery identification and sorting system built for OSCORP ENERGY, emphasizing throughput, manufacturability, and structural reliability. Completed FEA on the frame to validate around-the-clock operation and prepared documentation for upcoming prototyping.`,
     technologies: [
