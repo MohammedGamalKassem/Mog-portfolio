@@ -26,7 +26,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
 <<<<<<< HEAD
-    title: "Battery Sorting Machine – WAYNE",
+    title: "Battery Sorting Machine",
 =======
     title: "Battery Sorting Machine",
 >>>>>>> 416ba858695b72d4a542d5791ce19ff38a436254
