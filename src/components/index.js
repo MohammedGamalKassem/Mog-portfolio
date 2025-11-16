@@ -25,39 +25,64 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Battery sorter",
+    title: "Battery Sorting Machine – WAYNE",
     image: ISR,
-    description: `Prototype wing-body demonstrator focused on aerodynamic efficiency and structural optimization. Responsibilities included CAD design and preliminary validation.`,
-    technologies: ["SolidWorks", "CFD", "Structural Analysis"],
-    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
+    description: `Automated battery identification and sorting system built for OSCORP ENERGY, emphasizing throughput, manufacturability, and structural reliability. Completed FEA on the frame to validate around-the-clock operation and prepared documentation for upcoming prototyping.`,
+    technologies: [
+      "SolidWorks",
+      "Finite Element Analysis",
+      "Design for Manufacturability",
+      "Electronics Integration",
+      "Static/Dynamic Simulation",
+    ],
+    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng",
   },
   {
-    title: "v8",
+    title: "V8 Engine – Mechanical CAD Model",
     image: cruise,
-    description: `V8 engine assembly design including pistons, crankshaft, camshaft and valve-train with motion studies and tolerance checks.`,
-    technologies: ["SolidWorks", "Assembly Design", "Motion Studies"],
-    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
+    description: `Fully detailed 3D model of a V8 internal combustion engine covering pistons, crankshaft, camshaft, valves, and timing components. Delivered assembly sequencing, exploded views, and manufacturing-oriented documentation.`,
+    technologies: [
+      "SolidWorks",
+      "Assembly Design",
+      "Motion Studies",
+      "Technical Documentation",
+      "Mechanical Design",
+    ],
+    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng",
   },
   {
-    title: "rearwing",
+    title: "Racing Rear Wing",
     image: satelliteGEE,
-    description: `Rear wing design and aerodynamic optimization with CFD iterations and structural sizing for manufacturability.`,
-    technologies: ["CFD", "SolidWorks", "Aerodynamic Optimization"],
-    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
+    description: `Custom airfoil rear wing engineered to maximize downforce with minimal drag. Iterated aerodynamic profiles via CFD and validated a structural support system using FEA for high-load racing scenarios.`,
+    technologies: [
+      "SolidWorks",
+      "CFD",
+      "Custom Airfoil Design",
+      "FEA",
+      "Aerodynamic Optimization",
+    ],
+    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng",
   },
   {
-    title: "dbf",
+    title: "DBF Aircraft – Team Lead",
     image: DBF,
-    description: `Design–Build–Fly small-scale aircraft project covering full-cycle design, testing and documentation.`,
-    technologies: ["SolidWorks", "MATLAB", "Aerodynamic Analysis"],
-    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng"
+    description: `Led the AIAA Design-Build-Fly aircraft effort from aerodynamic shaping through structural integration and mission planning. Optimized for payload/MTOW targets, delivered stable flight, and secured 3rd place overall.`,
+    technologies: [
+      "Aerodynamic Design",
+      "Structural Design",
+      "MATLAB",
+      "SolidWorks",
+      "Team Leadership",
+      "Competition Optimization",
+    ],
+    link: "https://drive.google.com/drive/folders/1g8mLrcPX5NxNq6hzm2IxcqDGJnRPAdng",
   },
 ];
 
 export const CONTACT = {
   address: "Cairo, Egypt",
   phoneNo: "+20 111 541 7266",
-  email: "mohammedgamal92@gmail.com",
+  email: "mohammedgamal0092@gmail.com",
 };
 
 export const CERTIFICATIONS = [
